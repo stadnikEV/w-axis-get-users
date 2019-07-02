@@ -1,0 +1,23 @@
+{
+  "name": "w-axis(get-users)",
+  "version": "0.0.0",
+  "description": "Get users by id",
+  "main": "app.js",
+  "scripts": {
+    "dev": "NODE_ENV=dev supervisor app.js"
+  },
+  "author": "Eugene Stadnik",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mysql": "^2.17.1",
+    "nconf": "^0.10.0",
+    "promise-mysql": "^4.0.4",
+    "winston": "^3.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.1",
+    "eslint-plugin-node": "^7.0.1",
+    "supervisor": "^0.12.0"
+  }
+}

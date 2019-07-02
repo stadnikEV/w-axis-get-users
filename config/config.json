@@ -1,0 +1,9 @@
+{
+  "port-dev": "8080",
+  "MySQL": {
+    "host": "localhost",
+    "user": "root",
+    "password": "root",
+    "database": "w_axis"
+  }
+}
